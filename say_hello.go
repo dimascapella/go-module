@@ -1,7 +1,7 @@
 package modules
 
-func SayHello() string {
-	return "Hello Bwang"
+func SayHello(Name string) string {
+	return "Hello Bwang " + Name
 }
 
 func HelloWorld() string {
